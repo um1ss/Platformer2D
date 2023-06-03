@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -25,4 +26,5 @@ public class PlayerMovement : MonoBehaviour
     {
         rigitBody.MovePosition(rigitBody.position + Movement * speed * Time.fixedDeltaTime);
     }
+
 }
